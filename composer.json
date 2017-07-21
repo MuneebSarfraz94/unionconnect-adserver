@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "compile": [
+      "chmod -R a+w adserver/var/templates_compiled",
+      "chmod -R a+w adserver/www/admin/plugins",
+    
+    ]
+  }
+}
