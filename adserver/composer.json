@@ -23,5 +23,11 @@
     },
     "require-dev": {
         "symfony/finder": "^3.1"
-    }
+    },
+   "scripts": {
+      "compile": [
+         "chmod -R a+w /app/var/templates_compiled",
+         "chmod -R a+w /app/www/admin/plugins"
+    ]
+  }
 }
