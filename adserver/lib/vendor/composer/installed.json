@@ -1,0 +1,104 @@
+[
+    {
+        "name": "sinergi/browser-detector",
+        "version": "6.1.2",
+        "version_normalized": "6.1.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sinergi/php-browser-detector.git",
+            "reference": "e1bee473663bb82e5ff58a3a2c0bf81c8671de5a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sinergi/php-browser-detector/zipball/e1bee473663bb82e5ff58a3a2c0bf81c8671de5a",
+            "reference": "e1bee473663bb82e5ff58a3a2c0bf81c8671de5a",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.3.3 || ^7.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^4.8 || ^5.0"
+        },
+        "time": "2016-12-28 16:31:30",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Sinergi\\BrowserDetector\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Chris Schuld"
+            },
+            {
+                "name": "Gabriel Bull",
+                "email": "me@gabrielbull.com"
+            }
+        ],
+        "description": "Detecting the user's browser, operating system and language.",
+        "keywords": [
+            "browser",
+            "detection",
+            "language",
+            "operating system",
+            "os"
+        ]
+    },
+    {
+        "name": "symfony/finder",
+        "version": "v3.3.5",
+        "version_normalized": "3.3.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/finder.git",
+            "reference": "baea7f66d30854ad32988c11a09d7ffd485810c4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/finder/zipball/baea7f66d30854ad32988c11a09d7ffd485810c4",
+            "reference": "baea7f66d30854ad32988c11a09d7ffd485810c4",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.9"
+        },
+        "time": "2017-06-01 21:01:25",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.3-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Finder\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Finder Component",
+        "homepage": "https://symfony.com"
+    }
+]
